@@ -125,6 +125,11 @@ function showGameOver() {
   const x = canvas.width / 4.5;
   const y = canvas.height / 2;
   ctx.fillText("GAME OVER", x, y);
+  
+  // Add a small delay to allow score to be properly set
+  setTimeout(() => {
+    score.setHighScore();
+  }, 500);
 }
 
 function setupGameReset() {
@@ -149,12 +154,18 @@ function reset() {
 }
 
 function showStartGameText() {
-  const fontSize = 40 * scaleRatio;
+  const fontSize = 30 * scaleRatio;
   ctx.font = `${fontSize}px Verdana`;
   ctx.fillStyle = "grey";
   const x = canvas.width / 14;
   const y = canvas.height / 2;
   ctx.fillText("Spasi Atau Ketuk Layar Untuk Mulai", x, y);
+  
+  // Add player name if available
+  if (typeof playerName !== 'undefined' && playerName) {
+    const nameY = canvas.height / 2 - (40 * scaleRatio);
+    ctx.fillText(`Selamat datang, ${playerName}!`, x, nameY);
+  }
 }
 
 function updateGameSpeed(frameTimeDelta) {
