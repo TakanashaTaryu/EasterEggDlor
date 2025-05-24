@@ -6,14 +6,14 @@ function loadQuestions() {
     $questions = [];
     
     if (($handle = fopen("question.csv", "r")) !== FALSE) {
-        while (($data = fgetcsv($handle, 1000, "\t")) !== FALSE) {
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
             if (count($data) >= 3) {
                 // Add each question as a new array element
                 // This preserves all questions, even with duplicate codes
                 $questions[] = [
-                    'code' => $data[0],
-                    'question' => $data[1],
-                    'position' => $data[2]
+                    'code' => trim($data[0]),
+                    'question' => trim($data[1]),
+                    'position' => trim($data[2])
                 ];
             }
         }

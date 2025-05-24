@@ -1,26 +1,21 @@
-SSS	Tier Paling Atas	1 Mendatar
-SYW	salah satu dari tiga dewa utama (Trimurti) dalam agama Hindu bersama dengan Brahma dan Wisnu	1 Menurun
-FAV	Your favorite person	10 Menurun
-EKA	bahasa sansekerta satu	11 Menurun
-MIT	nama kampus	12 Mendatar
-MHZ	Satuan Frekuensi	12 Menurun
-TAN	Rumus trigonometri	13 Menurun
-AKK	Strong woman serba ungu	14 Mendatar
-REL	Kereta Berjalan diatas	15 Menurun
-ARZ	Siapa sosok kakak dari laksamana perang muda yang punya kekuatan api paling mematikan dan dikenal sebagai ahli strategi ulung sejak remaja?	16 Mendatar
-RAR	Mau dibayar ataupun tidak aku ini tetap menjalankan tugasku dengan baik	17 Menurun
-NOE	nama lengkap ku terdiri dari sebuah nilai atau variabel yang tidak valid (NULL)	18 Mendatar
-GND	Lawannya VCC	19 Menurun
-SHA	Saha atuh	2 Menurun
-TRA	selogan sebuah lab	20 Mendatar
-TIN	Aku seorang detektif yang memiliki anjing berwarna putih siapakah aku?	20 Menurun
-ION	Ada di air biasanya	21 Mendatar
-DAN	salah satu jenis topologi jaringan	22 Mendatar
-VAL	jatuh	3 Menurun
-ALD	x-linked adrenoleukodystrophy ( without x )	4 Mendatar
-DAZ	Dhiz	5 Menurun
-AUL	GAUL/OWL	6 Mendatar
-UZY	SMG	7 Menurun
-ACC	setujuu	8 Mendatar
-RYU	Hewan Mitologi	9 Mendatar
-RJJ	singkatan bahasa sunda tidak diajak tapi salah satu J	9 Menurun
+NOE, nama lengkap ku terdiri dari sebuah nilai atau variabel yang tidak valid (NULL), mendatar 1
+MIT, nama kampus, mendatar 3
+ARZ, Siapa sosok kakak dari laksamana perang muda yang punya kekuatan api paling mematikan dan dikenal sebagai ahli strategi ulung sejak remaja?, mendatar 4
+BIL, Setelah bayar selalu minta kertas, mendatar 6
+SSS, Tier Paling Atas, mendatar 8
+GND, lawannya VCC, mendatar 9
+RAR, Mau dibayar ataupun tidak aku ini tetap menjalankan tugasku dengan baik, mendatar 11
+ALD, x-linked adrenoleukodystrophy (without x), mendatar 13
+TIN, tempat menyimpan makanan, mendatar 15
+UZY, SMG, mendatar 16
+VAL, jatuh, mendatar 17
+EKA, bahasa sansekerta satu, menurun 2
+MHZ, satuan frekuensi, menurun 3
+REL, kereta berjalan diatas, menurun 5
+ION, ada di air biasanya, menurun 7
+SHA, saha atuh, menurun 8
+DAN, salah satu topologi jaringan, menurun 10
+RDJ, singkatan bahasa sunda tidak diajak tapi salah satu J diganti D, menurun 11
+RYU, Hewan mitologi, menurun 12
+SYW, salah satu dari tiga dewa utama (Trimurti) dalam agama Hindu bersama dengan Brahma dan Wisnu, menurun 14
+TRA, sebuah selogan sebuah lab, menurun 15
